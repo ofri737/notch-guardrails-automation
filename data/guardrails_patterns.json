@@ -1,0 +1,6 @@
+﻿{
+  "email_guardrail": {
+    "scenario": "Full email address",
+    "input_pattern": "ofri@gmail.com"
+  }
+}

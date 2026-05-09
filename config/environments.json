@@ -1,0 +1,19 @@
+﻿{
+  "qa": {
+    "display_name": "QA Environment",
+    "guardrails_url": "https://guardio.app.getnotch.dev/config/guardrails",
+    "playground_base_url": "https://guardio.app.getnotch.dev/conversations/inbox/playground/bJTZxXckWbPLoD8Dmd7sG"
+  },
+  "staging": {
+    "display_name": "Staging Environment",
+    "guardrails_url": "XXX",
+    "sandbox_url": "XXX",
+    "playground_base_url": "XXX"
+  },
+  "prod": {
+    "display_name": "Production Environment",
+    "guardrails_url": "XXX",
+    "sandbox_url": "XXX",
+    "playground_base_url": "XXX"
+  }
+}

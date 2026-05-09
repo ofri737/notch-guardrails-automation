@@ -1,0 +1,25 @@
+﻿{
+  "email_guardrail": {
+    "scenario": "Full email address",
+    "test_cases": [
+      {
+        "test_case": "Exact match",
+        "customer_email": "ofri@gmail.com",
+        "customer_message": "Hello, I need help with my account.",
+        "expected_behavior": "Blocked"
+      },
+      {
+        "test_case": "Mixed uppercase/lowercase",
+        "customer_email": "OfRi@Gmail.com",
+        "customer_message": "Hello, I need help with my account.",
+        "expected_behavior": "Blocked"
+      },
+      {
+        "test_case": "Different username",
+        "customer_email": "ofri1@gmail.com",
+        "customer_message": "Hello, I need help with my account.",
+        "expected_behavior": "Allowed"
+      }
+    ]
+  }
+}
